@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "propertymanagement-207415",
+  "private_key_id": "3676c6ec9c2a3090a0d4c1d3b1bb7b193c732a4b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDl5adhJT/n6r3m\nyt8i6lKzUUBU7qJN+DKrSOBRmFGbFUAqS2KaPJN1fd7IA49AcBbjlYkMDP7i4kjz\n4qYOFTbJOjcfs/hm1kRGZG8l5tpDedchbEAynHowXY5PdH0eKbODXRBTT11a9LSs\nbPSZHTo9z+/WbqHBujGHbiUmL3ssen76FM7wq17Kir/itbq3cl+fATDkK1achoW2\nKRjHIXKYq1z9GJwSsag+VBo4UxGfyQiYI4Z3tUTAFRrUGl0AI7LEkZOT8OhZtvAP\nO0w+zHwTBe5juf4Om5aIsONq+NSP+BZphZkzQ2qMBc3iZbz20EuUySwbkM28CLuG\ngJfetoIJAgMBAAECggEATMcAuknVaN+VokE4ehGloutMv9CedcmhKmEBQV7MSi2z\nqyxX9siqOn/Z6hR+P/fvPPxQs6yXZzBJSuHzsRpWnKeLh1P0bmu6i4O5NwA8/nHv\nbeMYIY7uo75q65AsxOkKYaGv9RK5S8oTmM4edhAzxjbukz+JWAiVx/P6BiGvUi/I\nnDjjxwnxQ9NHP61JWbM1vgUospEXprlRhVcnK4Pv+a4mNu3w/vF2C9d6AfSf1sb4\nugR/tQ6YZiFdIsOpxq61LLfxV0IV7X/+qRylCG6OUoQqbrkLukALlz920ga3v5/5\njdsGffLRb0vNc0SXYG9P07hpUaekp/C2s6mAa06obQKBgQD68HHubGEa+4aZVIx8\n3AXR7dedy4IsWUi/k54sDGk8yRTbNQrU8KfNO1OpDOoJWd0Pn7kvtwxN/3DqTILr\n/f8rtzSg3RV8CnO7HhNb3SDIwW6Hot9h6zF+8EtGyovrYTh/z82LgLNAkZMrv3NB\njM2LHh6zaUMTDmhr0RQ+c5z/ZwKBgQDqiJJlkIoft1YVU7UtcnodviKJYTpctijA\nqjyla4iNm91jfJwl1yQOQBMNiMONsJJ3KdSIuZeB6IRuPRNt2KZWGPzrbNBMLzEZ\nTVUD7+R9U7zjmjoJMUcBNHM/w0xEy/ykQI/ZSTuqFo0y7QmuJyhUVF6ArDXRa8Vb\nsXGukhg9DwKBgQDm4RdSMLFfbBC5PotLzfwk3FpHuph4SWWfrigXiwvAe5oO3cyr\ngwhA0db1cQZbuCymVWTDO/28PcwcJm1GyBlglV18rC06RTuZ6+AP43Jog2A4t2gj\n5YtSqa/44B7AYGDlZ8JMGgvS2p234JwgsXXkC8BffffSrqzwlhu0IhdO/QKBgQDS\nBCYEKOBm8kd1pZWx8rcDd0V5+8TFTKFFlavk/Vw0YoRnGCjDgdnZoOruza8/bARc\nDOsy2+6d99bO2IZTcRPSOWISd0g3UHMJE0Sz19elmpyku3CI1sWcgJlLWdksKfY8\nJ0wo6PkyoCsklTp75rioezx8wLkYpQb/yu/fwRdPZQKBgAmr9QGkYbEnYEwLs7g9\nbeQd/PJPs+uN/tCo63EKPdOJYbfcWrSRvZG5CUjKLp4ROC1nD2AwKlKJprEDRMOQ\ntzqcXvjMxkXKxvXA7zflhTWxaZNhHiYguW/uJ8mxr7f2r6uzF8JBbH9eC9SaqkB+\nkiZ2y6NbseSW3CDDETu27HpO\n-----END PRIVATE KEY-----\n",
+  "client_email": "broker@propertymanagement-207415.iam.gserviceaccount.com",
+  "client_id": "118186594417784288140",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/broker%40propertymanagement-207415.iam.gserviceaccount.com"
+}

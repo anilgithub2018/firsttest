@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="424866252249-rnmr12b3jo5ab7iacdrh1q56jcrq3al4.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  
+  </head>
+  <body>
+    <div style="border: 1px solid; border-radius: 5px">
+      Landlord
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+  </div>
+  <div style="border: 1px solid; border-radius: 5px">
+    Tenant
+    <div class="g-signin2" data-onsuccess="onSignIn2" data-theme="dark"></div>
+</div>
+    <script>
+      function onSignIn(googleUser) {
+        var id_token = googleUser.getAuthResponse().id_token;
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'http://localhost:3000/user/landlord/add');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onload = function() {
+          console.log('Signed in as: ' + xhr.responseText);
+        };
+        xhr.send('idtoken=' + id_token);
+      };
+      function onSignIn2(googleUser) {
+        var id_token = googleUser.getAuthResponse().id_token;
+        console.log("ID Token: " + id_token);
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'http://localhost:3000/user/tenant/add');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onload = function() {
+          console.log('Signed in as: ' + xhr.responseText);
+        };
+        xhr.send('idtoken=' + id_token);
+      };
+    </script>
+  </body>
+</html>
