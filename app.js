@@ -9,6 +9,8 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true }));
 
+require('@google-cloud/debug-agent').start();
+
 var index = require('./routes/index');
 var user = require('./routes/user');
 var order = require('./routes/order');
